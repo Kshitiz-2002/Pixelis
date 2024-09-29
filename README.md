@@ -1,4 +1,4 @@
-# pytorch-stable-diffusion
+# Pixelis
 PyTorch implementation of Stable Diffusion from scratch
 
 ## Download weights and tokenizer files:
