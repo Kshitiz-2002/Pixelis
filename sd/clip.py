@@ -35,7 +35,7 @@ class CLIPLayer(nn.Module):
         self.linear_1 = nn.Linear(n_embd, 4 * n_embd)
         self.linear_2 = nn.Linear(4 * n_embd, n_embd)
 
-    def forward(self, x):
+    def forward(self, x: torch.Tensor) -> torch.Tensor:
         # (Batch_Size, Seq_Len, Dim)
         residue = x
         
